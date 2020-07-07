@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 400px;
+    height: 400px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.blue {
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+.blue:hover {
+    z-index: 10;
+}
+
+.block {
+    width: 40%;
+    height: 40%;
+    background-color: orange;
+    border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    right:30%
+}
+
+.circle {
+    width: 33%;
+    height: 33%;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+.circle:hover {
+    z-index: 10;
+    background-color: orange;
+}
+
+.one {
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    top: 0px;
+    right: 0px;
+}
+
+.three {
+    bottom: 0px;
+    right: 0px;
+}
+
+.four {
+    bottom: 0px;
+    left: 0px;
+}
